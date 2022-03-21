@@ -1,0 +1,42 @@
+.featured_food_container {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(247, 247, 247);
+  padding: 2em 1em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.featured_food_item {
+  width: 100%;
+  height: 15em;
+  border-radius: 1em;
+  box-shadow: 0.1em 0.1em 0.2em rgb(232, 232, 232);
+}
+
+.featured_food_item:hover {
+  transform: scale(105%);
+}
+
+.featured_food_item_image_container {
+  height: 70%;
+  margin-bottom: 0.5em;
+}
+
+.featured_food_item_image_container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+
+.featured_food_container > h3 {
+  font-size: 2rem;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.featured_food_item > h5 {
+  font-size: 1rem;
+}
